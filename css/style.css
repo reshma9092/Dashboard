@@ -1,0 +1,168 @@
+/* Body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background: rgba(75, 110, 99, 0.185);
+}
+/* Side Bar */
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(../img/sidebar-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom-border {
+    border-bottom: 1px solid #eee;
+}
+.sidebar .titles {
+    text-decoration: none;
+    font-weight: bold;
+}
+.sidebar .titles:hover {
+    color: rgb(165, 202, 90) !important;
+}
+.sidebar .active {
+    background-color: green;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transition: all .3s ease;
+}
+.sidebar .active:hover {
+    background-color: rgb(10, 185, 10);
+    transform: translateY(-5px);
+}
+.sidebar .nav-item i {
+    color: yellowgreen;
+}
+.sidebar .sidebar-link {
+    transition: all .3s ease;
+    font-weight: 500 !important;
+}
+.sidebar-link:hover {
+    background-color: #444;
+    border-radius: 7px;
+
+}
+/* Main Navbar */
+.search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition: all .4s ease;
+}
+.search:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid green;
+}
+.search-btn {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s ease;
+}
+.search-btn:hover {
+    background-color: rgba(153, 153, 153, 0.493);
+    transform: translateY(-1px);
+    transform: scale(1.15);
+}
+.search-btn:hover i {
+    color: #eee !important;
+}
+.icon-notify {
+    position: relative;
+}
+.icon-notify-link:hover i {
+    color: #eee !important;
+}
+.icon-notify-link::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: green;
+}
+/* Sales-Expenses-Users-Visitors Section */
+.card-general .sales {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../img/sales1.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-general .expenses {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../img/expenses1.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-general .users {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../img/users1.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-general .visitors {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../img/visitors1.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seuv .card:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.301) !important;
+    transform: translateY(-3px);
+    transform: scale(1.03);
+}
+/* Salary-Payment Section */
+.salary-payment table td {
+    font-weight: 500 !important;
+}
+.salary-payment table .btn-info {
+    padding: 5px 5px !important;
+}
+/* ConversionRates-Tasks Section */
+.tasks .left-border {
+    border: none;
+    border-left: 4px solid yellowgreen !important;
+}
+/* Recent Customer Activities Section */
+.customer-activities .customer .card-body {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../img/comment.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #eee !important;
+    font-weight: 500 !important;
+}
+.customer-activities .btn-outline-success:hover {
+    transform: scale(1.05);
+}
+.customer-activities .quick-post a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.507) ! important;
+    font-weight:500 !important;
+}
+.customer-activities .quick-post a:hover{
+    color: green !important;
+}
+.customer-activities .quick-post .fa-4x {
+    font-size: 6rem !important;
+} 
+.customer-activities .quick-post h6 {
+    font-weight: 700;
+}
+/* Footer */
+.footer .nav-link {
+    font-weight:500 !important;
+}
+@media(min-width: 1199px) {
+    .footer .nav-link:hover {
+        transform: scale(1.3) !important;
+    }
+}
+.footer .nav-link:hover {
+    color: yellowgreen !important;
+}
